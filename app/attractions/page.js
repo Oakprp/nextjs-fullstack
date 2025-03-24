@@ -11,7 +11,7 @@ export default async function Page() {
   console.log(data)
   return (
     <div>
-      <h1>Attractions</h1>
+      <h1>Hello Attractions</h1>
       <ul>
         {data.map(attraction => (
           <li key={attraction.id}>
