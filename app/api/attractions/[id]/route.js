@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { mysqlPool } from "@/util/db";
+import { mysqlPool } from "@/utils/db";
 
 export async function GET(request, {params}) {
     const id = params.id
